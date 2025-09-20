@@ -1,70 +1,99 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🛒 Ecommerce con React, TypeScript y Supabase
 
-Currently, two official plugins are available:
+Proyecto de **comercio electrónico** creado con **React**,
+**TypeScript** y **Supabase**\
+Este repositorio tiene como objetivo poner en práctica conceptos de
+desarrollo web moderno: frontend con tipado fuerte, backend en la nube y
+manejo de datos en tiempo real.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+------------------------------------------------------------------------
 
-## Expanding the ESLint configuration
+## 🚀 Funcionalidades principales
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+-   🔐 **Autenticación de usuarios** (registro, login, logout) con
+    Supabase.\
+-   🛍️ **Gestión de productos**: listado, búsqueda y detalle de cada
+    ítem.\
+-   🛒 **Carrito de compras**: agregar, quitar y ver resumen de
+    productos.\
+-   📦 **Gestión de pedidos** (checkout e historial).\
+-   📱 **Interfaz responsive** optimizada para móviles y escritorio.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+------------------------------------------------------------------------
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🛠️ Tecnologías utilizadas
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+-   **Frontend** → React + TypeScript\
+-   **Backend & DB** → Supabase (Postgres, autenticación, storage)\
+-   **Estilos** → TailwindCSS\
+-   **Manejo de estado** → Hooks y Context API
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+------------------------------------------------------------------------
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📂 Estructura del proyecto
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-# TiendaAmancay
+    /src
+      /components     -> Componentes reutilizables
+      /pages          -> Páginas principales
+      /services       -> Conexión a Supabase y lógica de datos
+      /hooks          -> Hooks personalizados
+      /contexts       -> Contextos globales (auth, carrito, etc.)
+      /utils          -> Funciones auxiliares
+      /styles         -> Estilos globales
+    /public
+
+------------------------------------------------------------------------
+
+## ⚡ Instalación y uso
+
+1.  **Clonar repositorio**
+
+    ``` bash
+    git clone https://github.com/tu_usuario/tu_repositorio.git
+    cd tu_repositorio
+    ```
+
+2.  **Instalar dependencias**
+
+    ``` bash
+    npm install
+    # o yarn
+    ```
+
+3.  **Configurar variables de entorno**\
+    Crear un archivo `.env` con tus credenciales de Supabase:
+
+    ``` bash
+    VITE_SUPABASE_URL=tu_url
+    VITE_SUPABASE_ANON_KEY=tu_key
+    ```
+
+4.  **Ejecutar en modo desarrollo**
+
+    ``` bash
+    npm run dev
+    ```
+
+5.  **Build para producción**
+
+    ``` bash
+    npm run build
+    ```
+
+------------------------------------------------------------------------
+
+## 📖 Aprendizaje y objetivos
+
+Este proyecto fue creado con fines educativos, para:\
+- Mejorar el dominio de **React con TypeScript**.\
+- Aprender integración de un **backend como servicio (Supabase)**.\
+- Aplicar buenas prácticas de arquitectura y escalabilidad en proyectos
+frontend.
+
+------------------------------------------------------------------------
+
+## 📜 Licencia
+
+Este proyecto se distribuye bajo la licencia **MIT**.\
+Podés usarlo, modificarlo y adaptarlo libremente.
