@@ -1,19 +1,19 @@
-```{=html}
+
 <p align="center">
-```
-`<img src="https://raw.githubusercontent.com/github/explore/main/topics/react/react.png" alt="React Logo" width="120"/>`{=html}
-`<img src="https://raw.githubusercontent.com/github/explore/main/topics/typescript/typescript.png" alt="TS Logo" width="120"/>`{=html}
-`<img src="https://raw.githubusercontent.com/github/explore/main/topics/supabase/supabase.png" alt="Supabase Logo" width="120"/>`{=html}
-```{=html}
+
+<img src="https://raw.githubusercontent.com/github/explore/main/topics/react/react.png" alt="React Logo" width="100"/>
+<img src="https://raw.githubusercontent.com/github/explore/main/topics/typescript/typescript.png" alt="TS Logo" width="100"/>
+<img src="https://raw.githubusercontent.com/github/explore/main/topics/supabase/supabase.png" alt="Supabase Logo" width="100"/>
+
 </p>
-```
-```{=html}
+
+
 <h1 align="center">
-```
+
 🛒 Ecommerce con React, TypeScript y Supabase
-```{=html}
+
 </h1>
-```
+
 Proyecto de **comercio electrónico** creado con **React**,
 **TypeScript** y **Supabase**\
 Este repositorio tiene como objetivo poner en práctica conceptos de
