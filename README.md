@@ -25,21 +25,21 @@ manejo de datos en tiempo real.
 ## 🚀 Funcionalidades principales
 
 -   🔐 **Autenticación de usuarios** (registro, login, logout) con
-    Supabase.\
+    Supabase.
 -   🛍️ **Gestión de productos**: listado, búsqueda y detalle de cada
-    ítem.\
+    ítem.
 -   🛒 **Carrito de compras**: agregar, quitar y ver resumen de
-    productos.\
--   📦 **Gestión de pedidos** (checkout e historial).\
+    productos.
+-   📦 **Gestión de pedidos** (checkout e historial).
 -   📱 **Interfaz responsive** optimizada para móviles y escritorio.
 
 ------------------------------------------------------------------------
 
 ## 🛠️ Tecnologías utilizadas
 
--   **Frontend** → React + TypeScript\
--   **Backend & DB** → Supabase (Postgres, autenticación, storage)\
--   **Estilos** → TailwindCSS\
+-   **Frontend** → React + TypeScript
+-   **Backend & DB** → Supabase (Postgres, autenticación, storage)
+-   **Estilos** → TailwindCSS
 -   **Manejo de estado** → Hooks y Context API
 
 ------------------------------------------------------------------------
@@ -98,9 +98,9 @@ manejo de datos en tiempo real.
 
 ## 📖 Aprendizaje y objetivos
 
-Este proyecto fue creado con fines educativos, para:\
-- Mejorar el dominio de **React con TypeScript**.\
-- Aprender integración de un **backend como servicio (Supabase)**.\
+Este proyecto fue creado con fines educativos, para:
+- Mejorar el dominio de **React con TypeScript**.
+- Aprender integración de un **backend como servicio (Supabase)**.
 - Aplicar buenas prácticas de arquitectura y escalabilidad en proyectos
 frontend.
 
